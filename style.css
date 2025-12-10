@@ -1,10 +1,10 @@
 body {
-    background-color:#018790;
-    padding-top: 80px;
+    background-color:#fff;
+    padding-top: 60px;
 }
 .navbar {
     background:#F4F4F4;
-    box-shadow: 1px solid #333;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .nav-link { 
@@ -18,13 +18,33 @@ body {
     color: #005461;
 }
 
+
 .container {
-    background: #00B7B5;
-   padding: 20px;
+    background: #fff;
    border-radius: 10px;
-    
+} 
+
+h3 {                                                                                                
+    color: #005461;
 }
 
-h3 {
-    color: #005461;
+.cover-img {
+    height: 250px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 0;
+}
+
+.book-info small {
+    display: block;      
+    margin: 0;       
+}
+
+.book-info h5 {
+    margin-bottom: 0;
+    font-size: 16px;   
+}
+
+.book-info p {
+    margin-bottom: 0;   
 }

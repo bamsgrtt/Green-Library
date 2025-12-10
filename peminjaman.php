@@ -89,7 +89,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         <a class="nav-link mx-lg-2" href="anggota.php">Anggota</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-lg-2" href="Peminjaman.php">Peminjaman</a>
+                        <a class="nav-link active mx-lg-2" href="Peminjaman.php">Peminjaman</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link mx-lg-2" href="Pengembalian.php">Pengembalian</a>

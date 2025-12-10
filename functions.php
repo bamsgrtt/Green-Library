@@ -11,7 +11,7 @@ define('RETURNS_FILE', DATA_DIR . '/pengembalian.txt');
 
 $BORROW_LIMIT = 3;    // batas pinjam per anggota
 $BORROW_DAYS  = 7;    // lama pinjam default (hari)
-$FINE_PER_DAY = 1000; // denda per hari (Rupiah)
+$FINE_PER_DAY = 500; // denda per hari (Rupiah)
 
 // pastikan folder data ada
 if (!is_dir(DATA_DIR)) mkdir(DATA_DIR, 0755, true);

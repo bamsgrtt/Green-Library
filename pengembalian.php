@@ -39,7 +39,7 @@ $returns = readData(RETURNS_FILE);
                             <a class="nav-link mx-lg-2" href="Peminjaman.php">Peminjaman</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link mx-lg-2" href="Pengembalian.php">Pengembalian</a>
+                            <a class="nav-link active mx-lg-2" href="Pengembalian.php">Pengembalian</a>
                         </li>
                     </ul>
                 </div>
@@ -53,7 +53,7 @@ $returns = readData(RETURNS_FILE);
         <thead class="table-primary">
           <tr>
             <th>ID</th>
-            <th>Loan ID</th>
+            <th>ID Pinjaman</th>
             <th>Tgl Kembali</th>
             <th>Denda</th>
           </tr>
