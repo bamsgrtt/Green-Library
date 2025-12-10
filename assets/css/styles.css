@@ -1,0 +1,117 @@
+/* Path: assets/css/style.css */
+
+/* --- Tampilan Umum dan Container --- */
+body {
+    padding-top: 80px; /* Jarak dari Navbar fixed-top */
+    background-color: #f8f9fa; /* Warna latar belakang ringan */
+    color: #212529;
+}
+
+h1, h2 {
+    color: #198754; /* Hijau untuk judul (Green Library) */
+    margin-bottom: 20px;
+    border-bottom: 2px solid #e9ecef;
+    padding-bottom: 5px;
+}
+
+.container-custom {
+    padding: 20px;
+}
+
+/* --- Navbar (Green Library) --- */
+.navbar {
+    background-color: #343a40 !important; /* Latar belakang gelap */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    color: #198754 !important; /* Warna brand hijau */
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #cccccc !important;
+    transition: color 0.3s;
+}
+
+.nav-link:hover, .nav-item .active .nav-link {
+    color: #ffffff !important;
+}
+
+.login-button {
+    text-decoration: none;
+    color: white;
+    background-color: #0d6efd; /* Warna biru Bootstrap */
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+.login-button:hover {
+    background-color: #0b5ed7;
+}
+
+/* --- Form Styling --- */
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    margin-bottom: 30px;
+    display: flex; /* Untuk menata input secara horizontal */
+    gap: 10px;
+    align-items: center;
+}
+
+form input[type="text"],
+form input[type="email"],
+form select {
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    flex-grow: 1;
+}
+
+form button[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #0d6efd;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button[type="submit"]:hover {
+    background-color: #0b5ed7;
+}
+
+/* --- Tabel Styling --- */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table th {
+    background-color: #343a40;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+table td {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #dee2e6;
+}
+
+/* --- Pre tag untuk riwayat peminjaman/pengembalian --- */
+pre {
+    background-color: #e9ecef;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    white-space: pre-wrap;
+    word-break: break-all;
+}
