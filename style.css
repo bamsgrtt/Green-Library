@@ -1,0 +1,30 @@
+body {
+    background-color:#018790;
+    padding-top: 80px;
+}
+.navbar {
+    background:#F4F4F4;
+    box-shadow: 1px solid #333;
+}
+
+.nav-link { 
+    color: #005461;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.navbar-brand {
+    font-weight: 600;
+    color: #005461;
+}
+
+.container {
+    background: #00B7B5;
+   padding: 20px;
+   border-radius: 10px;
+    
+}
+
+h3 {
+    color: #005461;
+}
